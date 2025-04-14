@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: arial;
+  text-decoration: none;
+  list-style: none;
+}
+.navBar {
+  background-color: #0f1111;
+  color: white;
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 120px;
+  height: 50px;
+}
+.border {
+  border: 1px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+.para1 {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.para2 {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-left: 3px;
+}
+
+.navIcon {
+  display: flex;
+  align-items: center;
+}
+.navSearch {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  width: 400px;
+  height: 40px;
+  border-radius: 4px;
+}
+.navSearch:hover {
+  border: 3px solid orange;
+}
+.searchSelect {
+  width: 40px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.searchInput {
+  width: 100%;
+  font-size: 21px;
+  border: none;
+}
+
+
+/* also works to move icon to the center of the box
+.searchIcon {
+  align-content: center;
+  text-align: center;
+  width: 45px;
+}
+but we will use flex box to move it to center */
+.searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  font-size: 1.3rem;
+  background-color: orange;
+}
+
+span {
+  font-size: 0.7rem;
+}
+.navIn {
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.navCart {
+  font-size: 0.87rem;
+  font-weight: 700;
+}
+.navCart i {
+  font-size: 35px;
+}
+
+.panel {
+  display: flex;
+  width: 1200px;
+  height: 50px;
+  background-color: #222f3d;
+  color: white;
+  justify-content: space-between;
+}
+.panelMini {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.panelAll i {
+  font-size: 20px;
+}
+
+.panelOps ul {
+  display: flex;
+  gap: 20px;
+}
+.panelDeals{
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.Posters {
+  background-image: url('content://media/external/downloads/65066');
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.message {
+  background-color: white;
+  font-size: 0.75rem;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.message a {
+  color: #00785
+}
+.content {
+  
+}
+.contentID {
+  display: flex;
+  width: 1200px;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.healthBox {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.box {
+  width: 24%;
+  /*border: 2px solid black;*/
+  height: 300px;
+  padding: 20px 0px 15;
+  margin-top: 15px;
+  background-color: white;
+  justify-content: space-evenly;
+}
+.healthBox {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.health {
+  height: 210px;
+  background-size: cover;
+  background-repeat: no repeat;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* footer */ 
+.panel1 {
+  width: 1200px;
+  height: 60px;
+  background-color: #37475a;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+.panel2 {
+  width: 1200px;
+  height: 450px;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+  color: white;
+  padding-left: 20px;
+}
+.abc {
+  font-size: 0.85rem;
+}
+.panel3 {
+  width: 1200px;
+  height: 150px;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 45px;
+}
+.panel4a1 {
+  position: relative;
+  display: inline-block;
+}
+
+.panel4a1 i {
+  position: absolute;
+  left: 8px;
+  top: 15%;
+  transform: tranalateY(-15%);
+  font-size: 12px;
+  pointer-events: none;
+}
+.panel4a1 select {
+  width: 120px;
+  height: 45px;
+  color: white;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  border-radius: 5%;
+  background-color: #222f3d;
+}
+.panel4a2 {
+  display: flex;
+  border: 1px solid #dcdcdc50;
+  width: 150px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5%;
+}
+.panel4a3 {
+  display: flex;
+  border: 1px solid #dcdcdc50;
+  width: 150px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5%;
+  gap: 10px;
+  
+}
+.panel4a3 img {
+  border: 1px solid #dcdcdc80;
+  background-size: cover;
+}
+.panel5 {
+  width: 1200px;
+  height: 100px;
+  background-color: #17202a;
+  padding-top: 45px;
+  font-size: 1rem;
+}
+.panel5 ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: white;
+}
+.panel5 p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
