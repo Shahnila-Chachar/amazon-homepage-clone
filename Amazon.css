@@ -124,7 +124,7 @@ span {
   font-weight: 700;
 }
 .Posters {
-  background-image: url('content://media/external/downloads/65066');
+  background-image: url('Images/xy.jpg');
   width: 1200px;
   height: 300px;
   display: flex;
